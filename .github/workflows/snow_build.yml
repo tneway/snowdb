@@ -8,12 +8,12 @@ jobs:
       contents: read
       pull-requests: write 
     env:
-      ACCOUNT: ${{ secrets.ACCOUNT }}
-      USERNAME: ${{ secrets.USER }}
-      PASSWORD: ${{ secrets.PASSWORD }}
-      DATABASE: ${{ secrets.DATABASE }}
-      SCHEMA: ${{ secrets.SCHEMA }}
-      WAREHOUSE: ${{ secrets.WAREHOUSE }}
+      ACCOUNT: ${{ secrets.SF_ACCOUNT }}
+      USERNAME: ${{ secrets.SF_USER }}
+      PASSWORD: ${{ secrets.SF_PASSWORD }}
+      DATABASE: ${{ secrets.SF_DATABASE }}
+      SCHEMA: ${{ secrets.SF_SCHEMA }}
+      WAREHOUSE: ${{ secrets.SF_WAREHOUSE }}
     steps:
       - uses: actions/checkout@v4
       - uses: tetracionist/action-reviewdog-sqlfluff@v0.2.0
