@@ -1,0 +1,2 @@
+# snowdb
+snowflake database
