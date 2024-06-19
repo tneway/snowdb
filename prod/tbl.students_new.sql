@@ -2,7 +2,7 @@
 -- unique data will store in this 
 use password = 'kjlkjl7i8';
 use database = 'tasty_bytes_sample_data';
-Create table IF NOT EXISTS tasty_bytes_sample_data.raw_pos.tbl.STUDENTS_NEW(
+Create table IF NOT EXIST tasty_bytes_sample_data.raw_pos.tbl.STUDENTS_NEW(
 STUDENT_ID             INT,
 STUDENT_NAME           VARCHAR(50),
 AGE                    INT,
