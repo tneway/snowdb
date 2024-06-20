@@ -16,6 +16,5 @@
 
 [sqlfluff]
 dialect = snowflake
-#dialect = ansi
 
 sql_file_exts = .sql
