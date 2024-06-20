@@ -17,4 +17,11 @@
 [sqlfluff]
 dialect = snowflake
 
+[tool.sqlfluff.core]
 sql_file_exts = .sql
+
+# For rule specific configuration, use dots between the names exactly
+# as you would in .sqlfluff. In the background, SQLFluff will unpack the
+# configuration paths accordingly.
+[tool.sqlfluff.rules.capitalisation.keywords]
+capitalisation_policy = "upper"
