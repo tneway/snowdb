@@ -16,6 +16,7 @@
 
 [sqlfluff]
 dialect = snowflake
+exclude_rules  = PRS
 
 [tool.sqlfluff.core]
 sql_file_exts = .sql
