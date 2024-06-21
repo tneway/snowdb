@@ -6,7 +6,7 @@
         STUDENT_ID             INT,
         STUDENT_NAME           VARCHAR(50),
         AGE                    INT,
-        GRADE                  INT,
+        GRADE                  INT
         GRADE_AVG              FLOAT,
         DW_LOAD_DATE           DATETIME,
         DW_UPDATE_DATE         DATETIME,
