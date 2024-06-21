@@ -16,7 +16,8 @@
 
 [sqlfluff]
 dialect = snowflake
-exclude_rules  = PRS,TMP
+#exclude_rules  = PRS,TMP
+warnings = PRS,TMP
 
 [tool.sqlfluff.core]
 sql_file_exts = ".sql"
