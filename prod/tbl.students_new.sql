@@ -12,3 +12,4 @@
         DW_UPDATE_DATE         DATETIME,
         DW_DATA_SOURCE         VARCHAR(200)
     );
+
