@@ -1,7 +1,8 @@
 
 /* unique data will store in this 
    use password = 'kjlkjl7i8';
-   use database = 'tasty_bytes_sample_data' */
+   use database = 'tasty_bytes_sample_data' 
+   */
 CREATE OR REPLACE TABLE tasty_bytes_sample_data.raw_pos.tbl.STUDENTS_NEW1(
 STUDENT_ID             INT,
 STUDENT_NAME           VARCHAR(50),
