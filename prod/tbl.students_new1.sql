@@ -1,4 +1,3 @@
-
 /* unique data will store in this 
    use password = 'kjlkjl7i8';
    use database = 'tasty_bytes_sample_data' 
