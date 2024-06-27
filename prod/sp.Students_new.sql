@@ -1,5 +1,5 @@
 -- Yhid id stored procedure 
-CREATE OR REPLACE PROCEDURE TASTY_BYTES_SAMPLE_DATA.RAW_POS.SP.STUDENTS()
+CREATE OR REPLACE PROCEDURE TASTY_BYTES_SAMPLE_DATA.RAW_POS.SP.STUDENTS_NEW()
 RETURN ARRAY
 LANGUAGE JAVASCRIPT
 EXECUTE AS OWNER
@@ -20,7 +20,7 @@ AS
 
          var v_sql_cmd = `
                  INSERT INTO 
-                    tasty_bytes_sample_data.raw_pos.tbl.STUDENTS_NEW
+                    tasty_bytes_sample_data.raw_pos.tbl.STUDENTS_NEW1
                  SELECT
                     s.STUDENT_ID        ,
                     s.STUDENT_NAME      ,

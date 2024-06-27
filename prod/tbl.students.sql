@@ -7,4 +7,4 @@ STUDENT_NAME           VARCHAR(50),
 AGE                    INT,
 GRADE                  INT,
 GRADE_AVG              FLOAT
-)
+);

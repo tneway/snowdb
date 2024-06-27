@@ -16,9 +16,11 @@
 
 [sqlfluff]
 dialect = snowflake
+#exclude_rules  = PRS,TMP
+#warnings = PRS,TMP, LT01, LT02
 
 [tool.sqlfluff.core]
-sql_file_exts = .sql
+sql_file_exts = ".sql"
 
 # For rule specific configuration, use dots between the names exactly
 # as you would in .sqlfluff. In the background, SQLFluff will unpack the
